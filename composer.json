@@ -1,0 +1,26 @@
+{
+    "name": "gander/symfony-validator-constraints",
+    "type": "library",
+    "description": "Custom Symfony Validator Constraints",
+    "keywords": [],
+    "homepage": "http://gander.tools",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Gąsowski",
+            "email": "adam.gasowski@gander.pl"
+        }
+    ],
+    "require": {
+        "symfony/validator": "~2.8|~3.0"
+    },
+    "autoload": {
+        "psr-4": { "Gander\\Symfony\\Component\\Validator\\Constraints\\": "" }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
