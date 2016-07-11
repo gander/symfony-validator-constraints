@@ -9,6 +9,7 @@ use Symfony\Component\Validator\Constraints\CollectionValidator;
 /**
  * Class ArrayCollectionValidator
  * @package Gander\Symfony\Component\Validator\Constraints
+ * @author Adam Gąsowski <adam.gasowski@gander.pl>
  */
 class ArrayCollectionValidator extends CollectionValidator
 {
